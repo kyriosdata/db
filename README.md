@@ -1,2 +1,2 @@
-# db
-A health database management system
+# HealthDB
+A health database management system.
