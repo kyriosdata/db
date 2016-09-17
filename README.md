@@ -7,3 +7,6 @@ A database management system for health data.
 - REST for C (https://github.com/babelouest/ulfius)
 - web server functionality (https://www.coralbits.com/libonion/)
 - Lighttpd (https://www.lighttpd.net/)
+- xml parser (http://www.jclark.com/xml/expat.html)
+- xml parser (http://www.xmlsoft.org/)
+- xml parser (http://www.msweet.org/projects.php?Z3)
