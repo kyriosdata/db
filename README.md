@@ -6,3 +6,4 @@ A database management system for health data.
 - http server (https://www.gnu.org/software/libmicrohttpd/)
 - REST for C (https://github.com/babelouest/ulfius)
 - web server functionality (https://www.coralbits.com/libonion/)
+- Lighttpd (https://www.lighttpd.net/)
