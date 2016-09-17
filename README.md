@@ -21,3 +21,4 @@ A database management system for health data.
 - boost (http://www.boost.org/doc/libs/1_59_0/doc/html/boost_asio.html)
 - asio (http://think-async.com/Asio/)
 - ACE (http://www.cs.wustl.edu/~schmidt/ACE.html)
+- http://nipun-linuxtips.blogspot.com.br/2012/09/a-simple-rest-framework-on-cc.html
