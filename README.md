@@ -23,4 +23,4 @@ A database management system for health data.
 - asio (http://think-async.com/Asio/)
 - ACE (http://www.cs.wustl.edu/~schmidt/ACE.html)
 - http://nipun-linuxtips.blogspot.com.br/2012/09/a-simple-rest-framework-on-cc.html
-- GraphQL (http://graphql.org/)
+- GraphQL (http://graphql.org/) T1: Alternativa para AQL baseada em Arquétipos
