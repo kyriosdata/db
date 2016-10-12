@@ -5,6 +5,7 @@ A database management system for health data.
 - Libcurl for transfer data (https://curl.haxx.se/libcurl/)
 - http server (https://www.gnu.org/software/libmicrohttpd/)
 - REST for C (https://github.com/babelouest/ulfius)
+- Criar o próprio thread-per-client socket connection in C?
 - web server functionality (https://www.coralbits.com/libonion/)
 - Lighttpd (https://www.lighttpd.net/)
 - xml parser (http://www.jclark.com/xml/expat.html)
