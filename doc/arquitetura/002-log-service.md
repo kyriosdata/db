@@ -6,14 +6,19 @@ Proposto
 
 ## Contexto
 
-O HDB depende de registro de *log* para monitoramento de sua "saúde". 
+O HDB depende de registro de *log* para monitoramento de sua "saúde", além de considerações
+sobre portabilidade para dispositivos com recursos limitados e necessidades específicas.
 
 ## Decisão
 
-Serviços de *log* como log4j estabelecem dependência que se deseja evitar. 
+Definir e desenvolver serviços de *log* próprio que contemple as especificidades do HDB.
+Serviços como o [log4j](http://logging.apache.org/log4j/2.x/) estabelecem dependência que se deseja evitar,
+mas aspectos positivos como o uso de LMAX Disrupter library para o benefício de cenários multi-threaded como
+o HDB. 
+
 As necessidades deverão ser capturadas em interface própria, com implementação
-possivelmente própria (sem necessidade de recorrer a implementações amplamente
-utilizadas).
+possivelmente própria usando estratégias como o LMAX Disrupter e outros
+onde reconhecido o benefício para o desempenho.
 
 ## Consequências
 
