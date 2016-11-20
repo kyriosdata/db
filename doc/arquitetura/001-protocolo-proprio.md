@@ -15,7 +15,10 @@ em ambos os sentidos.
 
 Um protocolo próprio será estabelecido com o objetivo
 de promover o amplo uso, mesmo em ambientes de recursos
-restritos.
+restritos. A figura abaixo permite ilustrar o contexto
+de uso do protocolo.
+
+![image](https://cloud.githubusercontent.com/assets/1735792/18794399/bd0cba04-8195-11e6-8763-f9afac71919d.png)
 
 ## Consequências
 
