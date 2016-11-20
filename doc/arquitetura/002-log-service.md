@@ -16,6 +16,9 @@ Serviços como o [log4j](http://logging.apache.org/log4j/2.x/) estabelecem depen
 mas aspectos positivos como o uso de [LMAX Disrupter library](http://lmax-exchange.github.io/disruptor/) são estimulados para o benefício de cenários multi-threaded como
 o HDB. 
 
+A ideia é tratar logs como dados e coletar outras informações além de métricas predefinidas. O objetivo é 
+responder questões que o negócio não pode antecipar previamente (Technology Radar).
+
 As necessidades deverão ser capturadas em interface própria, com implementação
 possivelmente própria usando estratégias como o LMAX Disrupter e outros
 onde reconhecido o benefício para o desempenho.
