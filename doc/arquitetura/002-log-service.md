@@ -13,7 +13,7 @@ sobre portabilidade para dispositivos com recursos limitados e necessidades espe
 
 Definir e desenvolver serviços de *log* próprio que contemple as especificidades do HDB.
 Serviços como o [log4j](http://logging.apache.org/log4j/2.x/) estabelecem dependência que se deseja evitar,
-mas aspectos positivos como o uso de [LMAX Disrupter library[(http://lmax-exchange.github.io/disruptor/) são estimulados para o benefício de cenários multi-threaded como
+mas aspectos positivos como o uso de [LMAX Disrupter library](http://lmax-exchange.github.io/disruptor/) são estimulados para o benefício de cenários multi-threaded como
 o HDB. 
 
 As necessidades deverão ser capturadas em interface própria, com implementação
