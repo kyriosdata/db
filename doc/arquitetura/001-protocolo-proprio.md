@@ -20,3 +20,7 @@ restritos.
 ## Consequências
 
 - Definição e desenvolvimento de componente específico.
+- Definição e desenvolvimento de bibliotecas de acesso para várias linguagens. 
+- Não reutiliza ferramentas já disponíveis, por exemplo, se usado HTTP. 
+- Eficiência (protocolo personalizado para as necessidades).
+- Portabilidade (ambientes com recursos restritos serão considerados).
