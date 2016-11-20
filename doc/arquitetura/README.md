@@ -6,4 +6,4 @@ produzido por Michael Nygard. Vamos seguir as orientações apresentadas nesse d
 
 ## Decisões
 - Protocolo de comunicação Cliente-HDB próprio ([001](https://github.com/kyriosdata/db/blob/master/doc/arquitetura/001-protocolo-proprio.md)).
-- Serviço de log ([002](https://github.com/kyriosdata/db/edit/master/doc/arquitetura/002-log-service.md))
+- Serviço de log ([002](https://github.com/kyriosdata/db/blob/master/doc/arquitetura/002-log-service.md))
