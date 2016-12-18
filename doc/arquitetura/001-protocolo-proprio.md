@@ -6,10 +6,10 @@ Proposto
 
 ## Contexto
 
-O HDB oferece serviços disponíveis por meio da
+O HealthDB oferece serviços disponíveis por meio da
 interação com clientes. Essa interação deve permitir
 a requisição de serviços e o trânsito de dados,
-em ambos os sentidos.
+em ambos os sentidos, com eficiência. 
 
 ## Decisão
 
