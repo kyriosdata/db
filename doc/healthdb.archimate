@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="SisVida" id="54525ee5" version="4.0.0">
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="HealthDB" id="54525ee5" version="4.0.0">
   <folder name="Strategy" id="5f87ffa0-e2e3-439d-ab26-794d52789632" type="strategy"/>
   <folder name="Business" id="864b4d64" type="business">
     <element xsi:type="archimate:BusinessFunction" name="Enterprise: Business Planning &amp; Logistics business functions" id="9368"/>
