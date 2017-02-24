@@ -81,7 +81,7 @@
       <child xsi:type="archimate:Note" id="1843a271-cf1b-426b-8665-cf887b34adec" textAlignment="1">
         <bounds x="660" y="208" width="120" height="101"/>
         <sourceConnection id="a766234c-380e-442e-af71-6506c171400f" source="1843a271-cf1b-426b-8665-cf887b34adec" target="b4760346-8acc-449a-8f48-432bb6d039a9"/>
-        <content>Em ocnformidade com padrões nacionais para acesso ao RES, CNS, CNES, Horus e outros.</content>
+        <content>Em conformidade com padrões nacionais para acesso ao RES, CNS, CNES, Horus e outros.</content>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="02 - CONTEXTO HEALTHDB" id="0696e662-6a2c-4144-a69c-5573887f5525">
