@@ -18,10 +18,10 @@
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="223.0" width="497.0" x="157.0" y="426.33333333333326"/>
+          <y:Geometry height="435.0" width="500.0" x="154.0" y="397.33333333333326"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="78.41357421875" x="209.293212890625" y="26.701171875">Client Layer<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="78.41357421875" x="210.793212890625" y="26.701171875">Client Layer<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -39,7 +39,7 @@
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="58.0" width="116.0" x="349.0" y="561.3333333333333"/>
+          <y:Geometry height="58.0" width="116.0" x="349.0" y="499.33333333333326"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="84.20263671875" x="15.898681640625" y="26.701171875">HealthDB API<y:LabelModel>
@@ -49,7 +49,7 @@
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
-          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="interface" use3DEffect="false">
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="JavaScript" use3DEffect="false">
             <y:AttributeLabel/>
             <y:MethodLabel/>
           </y:UML>
@@ -60,10 +60,10 @@
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="58.0" width="116.0" x="513.0" y="561.3333333333333"/>
+          <y:Geometry height="64.0" width="116.0" x="513.0" y="496.33333333333326"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="59.63720703125" x="28.181396484375" y="3.0">HealthDB
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="59.63720703125" x="28.181396484375" y="26.701171875">HealthDB
 Driver<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -71,7 +71,7 @@ Driver<y:LabelModel>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
-          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="false">
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="JavaScript" use3DEffect="false">
             <y:AttributeLabel/>
             <y:MethodLabel/>
           </y:UML>
@@ -82,10 +82,11 @@ Driver<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="28.0" width="116.0" x="349.0" y="489.33333333333326"/>
+          <y:Geometry height="44.0" width="116.0" x="180.5" y="629.3333333333333"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="88.54443359375" x="13.727783203125" y="3.0">Client Console<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="51.6962890625" x="32.15185546875" y="3.0">Client
+Console<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -105,7 +106,7 @@ Driver<y:LabelModel>
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="130.0" width="130.0" x="180.5" y="489.33333333333326"/>
+              <y:Geometry height="130.0" width="130.0" x="180.5" y="427.33333333333326"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="right" autoSizePolicy="content" backgroundColor="#FFFFFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="free" modelPosition="anywhere" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.1845703125" x="35.90771484375" y="0.0">Client GUI</y:NodeLabel>
@@ -132,7 +133,7 @@ Driver<y:LabelModel>
           <data key="d4"/>
           <data key="d6">
             <y:UMLClassNode>
-              <y:Geometry height="28.0" width="100.0" x="195.5" y="576.3333333333333"/>
+              <y:Geometry height="28.0" width="100.0" x="195.5" y="514.3333333333333"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="69.03173828125" x="15.484130859375" y="3.0">Server App<y:LabelModel>
@@ -153,7 +154,7 @@ Driver<y:LabelModel>
           <data key="d4"/>
           <data key="d6">
             <y:UMLClassNode>
-              <y:Geometry height="28.0" width="100.0" x="195.5" y="526.3333333333333"/>
+              <y:Geometry height="28.0" width="100.0" x="195.5" y="464.33333333333326"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="63.97900390625" x="18.010498046875" y="3.0">Client App<y:LabelModel>
@@ -172,6 +173,86 @@ Driver<y:LabelModel>
         </node>
       </graph>
     </node>
+    <node id="n5">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="64.0" width="116.0" x="349.0" y="745.3333333333333"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="59.63720703125" x="28.181396484375" y="26.701171875">HealthDB
+Driver<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="Java" use3DEffect="false">
+            <y:AttributeLabel/>
+            <y:MethodLabel/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="64.0" width="116.0" x="513.0" y="745.3333333333333"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="35.8525390625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="84.20263671875" x="15.898681640625" y="26.701171875">HealthDB API
+Server</y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="Java" use3DEffect="false">
+            <y:AttributeLabel/>
+            <y:MethodLabel/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="58.0" width="116.0" x="180.5" y="745.3333333333333"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="84.20263671875" x="15.898681640625" y="26.701171875">HealthDB API<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="Java" use3DEffect="false">
+            <y:AttributeLabel/>
+            <y:MethodLabel/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="65.0" width="159.0" x="327.5" y="618.8333333333333"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="59.63720703125" x="49.681396484375" y="26.701171875">HealthDB<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="protocol specification" use3DEffect="false">
+            <y:AttributeLabel/>
+            <y:MethodLabel/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
     <edge id="e0" source="n2" target="n1">
       <data key="d10">
         <y:PolyLineEdge>
@@ -182,7 +263,7 @@ Driver<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e1" source="n3" target="n1">
+    <edge id="e1" source="n3" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -208,6 +289,80 @@ Driver<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n5" target="n7">
+      <data key="d8"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="-22.5" ty="3.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n1" target="n8">
+      <data key="d8"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="plain"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n2" target="n8">
+      <data key="d8"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="571.0" y="651.3333333333333"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="plain"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n5" target="n8">
+      <data key="d8"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="plain"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e8" source="n6" target="n8">
+      <data key="d8"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="plain"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e9" source="n7" target="n8">
+      <data key="d8"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="plain"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
