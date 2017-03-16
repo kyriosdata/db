@@ -24,7 +24,7 @@ Abaixo segue a visão operacional do HealthDB na perspectiva dos seus usuários.
 |Manage archetypes| Permite acrescentar, remover arquétipos geridos pelo HealthDB.|
 
 ### Modelo do domínio
-Os principais conceitos utilizados pelo SISB são ilustrados abaixo. De forma resumida, um Registro Eletrônico em Saúde (RES), de um dado Paciente, é formado por uma composição de dados em saúde. Cada dado é definido por um arquétipo e, naturalmente, foi produzido por um profissional de saúde (usuário), que possui a devida autorização para tal. As trocas de informação com sistemas externos ou são de importação ou de exportação de dados e, em ambos os casos, está associada a um dado específico.
+O HealthDB executa funções (Work) de importação/exportação de dados e consultas (Query), dentre outras. Cada uma delas associada a um usuário (User) que deve estar devidamente autenticado (Access Control) para fazer uso do banco de dados (Database) em questão. Tais funções produzem um resultado (ResultSet). Em geral, trata-se de dados de saúde (RMObject), pertinentes a um Registro Eletrônico em Saúde (EHR) baseados em um ou mais arquétipos. Em tempo, cada EHR é pertinente a um paciente (Patient) cujos dados demográficos (Demographic) são mantidos "separados" das informações clínicas propriamente ditas.
 
 ![hdb-domain](https://cloud.githubusercontent.com/assets/1735792/23341779/139f8a4c-fc2d-11e6-89c8-7211d11bb13f.png)
 
