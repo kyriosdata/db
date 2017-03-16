@@ -3,14 +3,13 @@ Abaixo segue a visão operacional do HealthDB na perspectiva dos seus usuários.
 
 ### Contexto do sistema
 
-![sisb-context](https://cloud.githubusercontent.com/assets/1735792/23717130/617f2376-0411-11e7-95de-35b33e00bc21.png)
+![hdb-context](https://cloud.githubusercontent.com/assets/1735792/23322571/568f1162-fac3-11e6-975c-a2d540df0861.png)
 
 | Ator           |   Descrição  |
 |:--------------:|----------------|
-|Administrador   | Responsável pela manutenção do SISB em operação. |
-|Odontólogo      | Profissional de saúde que consulta e gera informação em saúde bucal nos prontuários dos pacientes.     |
+|Cliente   | Software que faz uso dos recursos do HealthDB. É o principal ator cuja interação típica pode ser modelada pelo envio de consultas (AQL) e recuperação dos resultados (ResultSet) por meio do uso de HealthDB API. |
+|DBA/Developer      | Indivíduo que mantém o HealthDB em funcionamento (requisita funções de administração do HealthDB), além de requisitar serviços típicos durante o desenvolvimento, como a execução de consultas AQL. |
 |Sistema externo | Sistema com o qual o SISB interage, tanto para enviar quanto para receber informações em conformidade com os padrões adotados pelo Brasil.|
-|Barramento SUS| Conjunto de serviços oferecidos pelo Datasus (CNS, CNES, Horus, SIGTAP e eSus-AB).|
 
 
 ### Casos de uso
