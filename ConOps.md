@@ -14,17 +14,14 @@ Abaixo segue a visão operacional do HealthDB na perspectiva dos seus usuários.
 
 ### Casos de uso
 
-![hdb-context](https://cloud.githubusercontent.com/assets/1735792/24000704/c3fb6abc-0a3a-11e7-9ac0-d9c2b957b5ee.png)
+![hdb-context](https://cloud.githubusercontent.com/assets/1735792/24000856/3b6f1df0-0a3b-11e7-967a-344729a23141.png)
 
 | Caso de Uso    |   Descrição  |
 |--------------|----------------|
-|Acrescentar informações| Permite acrescentar informações ao prontuário de um paciente.|
-|Consultar informações|Permite consulta às informações contidas em um prontuário de um dado paciente.|
-|Localizar paciente| Permite busca por paciente (apenas dados demográficos)|
-|Trocar informações| Permite o envio para e o recebimento de informações em saúde contida em sistema externo ao SISB. Em ambos os casos a operação não permite ao usuário o acesso às informações propriamente ditas, mas apenas àquelas pertinentes à transação (transferência).|
-|Cadastrar paciente| Dados demográficos de pacientes já cadastrados podem ser confirmados e, se necessário, atualizados, bem como um novo cadastro criado. Permite a recuperação de informações via CNS.|
-|Monitorar SISB|Permite acompanhar a operação (funcionamento do SISB).|
-|Gerenciar usuários|Permite a gestão do cadastro de usuários do SISB, o que inclui recursos para habilitar/desabilitar usuário, alteração de senha e outras questões pertinentes.|
+|Generate auditor reports| Gerar relatórios úteis aos propósitos de auditoria.|
+|Import/export data|Permite a incorporação de dados baseados em arquétipos e a correspondente exportação.|
+|Execute query| Executa consultas AQL.|
+|Manage archetypes| Permite acrescentar, remover arquétipos geridos pelo HealthDB.|
 
 ### Modelo do domínio
 Os principais conceitos utilizados pelo SISB são ilustrados abaixo. De forma resumida, um Registro Eletrônico em Saúde (RES), de um dado Paciente, é formado por uma composição de dados em saúde. Cada dado é definido por um arquétipo e, naturalmente, foi produzido por um profissional de saúde (usuário), que possui a devida autorização para tal. As trocas de informação com sistemas externos ou são de importação ou de exportação de dados e, em ambos os casos, está associada a um dado específico.
