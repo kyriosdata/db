@@ -7,16 +7,11 @@ As camadas do HealthDB são indicadas na figura abaixo. Os usos permitidos são 
 ***
 
 ### Client layer (módulos)
-A _Client layer_ compreende vários módulos. O principal módulo é a especificação do protocolo HealthDB (no centro da figura abaixo). Observe que cinco módulos dependem dessa especificação: a interface HealthDB API em JavaScript e a implementação do driver correspondente; a interface HealthDB API em Java e a correspondente implementação e, por fim, a implementação da HealthDB API no lado do servidor. 
+A _Client layer_ compreende vários módulos. O principal módulo é a especificação do protocolo HealthDB (no centro da figura abaixo). Observe que cinco módulos dependem dessa especificação: a interface [HealthDB API](https://github.com/kyriosdata/db/wiki/HealthDB-API) em JavaScript e a implementação do driver correspondente; a interface [HealthDB API](https://github.com/kyriosdata/db/wiki/HealthDB-API) em Java e a correspondente implementação e, por fim, a implementação da HealthDB API no lado do servidor. 
 
 ![hdb-layer-client](https://cloud.githubusercontent.com/assets/1735792/24012580/45947772-0a5d-11e7-8f2d-599e5b71fb1d.png)
 
-Observe ainda os módulos Client [GUI](https://github.com/kyriosdata/db/wiki/Cliente-(gui)) e Client [Console]((https://github.com/kyriosdata/db/wiki/Cliente-(console)). O primeiro fornece uma interface gráfica para acesso ao HealthDB via navegador, enquanto o segundo é uma interface baseada na linha de comandos. 
-
-Detalhes de alguns módulos:
-
-- Cliente Administrativo. Meio de acesso de usuários humanos às funções oferecidas pelo HealthDB, por exemplo, criação de contas e monitoramento, além da execução de consultas. Há previsão de implementação do CAD em duas versões: (a) [gráfica](https://github.com/kyriosdata/db/wiki/Cliente-(gui)) e (b) [console](https://github.com/kyriosdata/db/wiki/Cliente-(console)).
-- [HealthDB API](https://github.com/kyriosdata/db/wiki/HealthDB-API). Clientes (softwares) interagem com o HealthDB trocando mensagens por meio dessa API. Convém destacar que toda informação que trafega para/do HealthDB faz uso dessa API.
+Observe ainda os módulos Client [GUI](https://github.com/kyriosdata/db/wiki/Cliente-(gui)) e Client [Console](https://github.com/kyriosdata/db/wiki/Cliente-(console)). O primeiro fornece uma interface gráfica para acesso ao HealthDB via navegador, enquanto o segundo é uma interface baseada na linha de comandos. 
 
 #### Application layer
 Os módulos da _Application Layer_ são apresentados no diagrama abaixo. 
