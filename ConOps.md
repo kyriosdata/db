@@ -14,7 +14,7 @@ Abaixo segue a visão operacional do HealthDB na perspectiva dos seus usuários.
 
 ### Casos de uso
 
-![sisb-use-cases](https://cloud.githubusercontent.com/assets/1735792/23718572/c02b3356-0416-11e7-8617-99558f063784.png)
+![hdb-context](https://cloud.githubusercontent.com/assets/1735792/24000704/c3fb6abc-0a3a-11e7-9ac0-d9c2b957b5ee.png)
 
 | Caso de Uso    |   Descrição  |
 |--------------|----------------|
