@@ -18,15 +18,14 @@ Ainda convém ressaltar que a implementação da HealthDB API pode ser realizada
 ***
 
 ### Application layer
-Os módulos da _Application Layer_ são apresentados no diagrama abaixo. 
+A _Application Layer_ reúne os módulos que implementam a recepção das requisições e o encaminhamento para execução. Essa camada também é responsável pelo acesso a serviços externos como aqueles oferecidos pelo barramento do Serviço Único de Saúde (SUS).
 
-![hdb-layer-application](https://cloud.githubusercontent.com/assets/1735792/22622583/3503510a-eb25-11e6-914d-52deff7ab441.png)
+![hdb-layer-application](https://cloud.githubusercontent.com/assets/1735792/24015984/1b3ed268-0a69-11e7-8924-719c7ae6b4f6.png)
 
 Detalhes:
-- _HealthDB Endpoint_. Implementação do lado "servidor" da [HealthDB API](https://github.com/kyriosdata/db/wiki/HealthDB-API).
 - Autenticação e Autorização ([A2](https://github.com/kyriosdata/db/wiki/Autentica%C3%A7%C3%A3o-e-Autoriza%C3%A7%C3%A3o-(A2))).
-- Auditoria.
-- Conexão com serviços externos utilizados pelo HealthDB, por exemplo, CNS, CNES e outros. 
+- Auditoria. Responsável pela execução de atividades de auditoria (por exemplo, produção de relatórios).
+- External Service. Conexão com serviços externos utilizados pelo HealthDB, por exemplo, CNS, CNES e outros. 
 - [_Work Manager_](https://github.com/kyriosdata/db/wiki/Work-Manager). Decide se o processamento de uma requisição deve ser iniciada imediatamente ou aguardar até que recursos considerados necessários estejam disponíveis para serem alocados à requisição. Adicionalmente, estabelece a ligação entre _worker thread_ usada para tratar a requisição (lógico) e a correspondente implementação (física) usando _threads_ em Java, _lightweight thread_, um processo ou outro mecanismo, inclusive o uso de _pool_ desses recursos físicos.
 - _Use Case Manager_. O HealthDB apresenta aos clientes alguns casos de uso: importar, exportar dados, acréscimo de arquétipo e, talvez o mais comum, consulta AQL. 
 - _Session Manager_. Responsável por manter o estado da conexão de um cliente com o HealthDB.  
