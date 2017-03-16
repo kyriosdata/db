@@ -7,7 +7,7 @@ As camadas do HealthDB são indicadas na figura abaixo. Os usos permitidos são 
 ***
 
 ### Client layer (módulos)
-A _Client layer_ compreende vários módulos. Cinco módulos implementam a interface HealthDB API, empregando linguagens distintas. O módulo Client Console que oferece acesso às funções administrativas, inclusive consultas, do HealthDB e o módulo com conjunto de funções similar, mas acessado via _browser_. 
+A _Client layer_ compreende vários módulos. O principal módulo é a especificação do protocolo HealthDB (no centro da figura abaixo). Observe que cinco módulos dependem dessa especificação. Nesse exemplo, tem-se duas implementações do protocolo, uma para JavaScript e outra para Java. Observe que o componente HealthDB API Server é único.  
 
 ![hdb-layer-client](https://cloud.githubusercontent.com/assets/1735792/24012580/45947772-0a5d-11e7-8f2d-599e5b71fb1d.png)
 
