@@ -13,7 +13,7 @@ A _Client layer_ compreende vários módulos. Cinco módulos implementam a inter
 
 Detalhes de alguns módulos:
 
-- Cliente Administrativo ([CAD](https://github.com/kyriosdata/db/wiki/CAD-(cliente))). Meio de acesso de usuários humanos às funções oferecidas pelo HealthDB, por exemplo, criação de contas e monitoramento, além da execução de consultas. Há previsão de implementação do CAD em duas versões: (a) [gráfica](https://github.com/kyriosdata/db/wiki/Cliente-(gui)) e (b) [console](https://github.com/kyriosdata/db/wiki/Cliente-(console)).
+- Cliente Administrativo. Meio de acesso de usuários humanos às funções oferecidas pelo HealthDB, por exemplo, criação de contas e monitoramento, além da execução de consultas. Há previsão de implementação do CAD em duas versões: (a) [gráfica](https://github.com/kyriosdata/db/wiki/Cliente-(gui)) e (b) [console](https://github.com/kyriosdata/db/wiki/Cliente-(console)).
 - [HealthDB API](https://github.com/kyriosdata/db/wiki/HealthDB-API). Clientes (softwares) interagem com o HealthDB trocando mensagens por meio dessa API. Convém destacar que toda informação que trafega para/do HealthDB faz uso dessa API.
 
 #### Application layer
