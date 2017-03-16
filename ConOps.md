@@ -14,22 +14,20 @@ Abaixo segue a visão operacional do HealthDB na perspectiva dos seus usuários.
 
 ### Casos de uso
 
-![sisb-use-cases](https://cloud.githubusercontent.com/assets/1735792/23718572/c02b3356-0416-11e7-8617-99558f063784.png)
+![hdb-context](https://cloud.githubusercontent.com/assets/1735792/24000856/3b6f1df0-0a3b-11e7-967a-344729a23141.png)
 
 | Caso de Uso    |   Descrição  |
 |--------------|----------------|
-|Acrescentar informações| Permite acrescentar informações ao prontuário de um paciente.|
-|Consultar informações|Permite consulta às informações contidas em um prontuário de um dado paciente.|
-|Localizar paciente| Permite busca por paciente (apenas dados demográficos)|
-|Trocar informações| Permite o envio para e o recebimento de informações em saúde contida em sistema externo ao SISB. Em ambos os casos a operação não permite ao usuário o acesso às informações propriamente ditas, mas apenas àquelas pertinentes à transação (transferência).|
-|Cadastrar paciente| Dados demográficos de pacientes já cadastrados podem ser confirmados e, se necessário, atualizados, bem como um novo cadastro criado. Permite a recuperação de informações via CNS.|
-|Monitorar SISB|Permite acompanhar a operação (funcionamento do SISB).|
-|Gerenciar usuários|Permite a gestão do cadastro de usuários do SISB, o que inclui recursos para habilitar/desabilitar usuário, alteração de senha e outras questões pertinentes.|
+|Generate auditor reports| Gerar relatórios úteis aos propósitos de auditoria.|
+|Import/export data|Permite a incorporação de dados baseados em arquétipos e a correspondente exportação.|
+|Execute query| Executa consultas AQL.|
+|Manage archetypes| Permite acrescentar, remover arquétipos geridos pelo HealthDB.|
 
 ### Modelo do domínio
-Os principais conceitos utilizados pelo SISB são ilustrados abaixo. De forma resumida, um Registro Eletrônico em Saúde (RES), de um dado Paciente, é formado por uma composição de dados em saúde. Cada dado é definido por um arquétipo e, naturalmente, foi produzido por um profissional de saúde (usuário), que possui a devida autorização para tal. As trocas de informação com sistemas externos ou são de importação ou de exportação de dados e, em ambos os casos, está associada a um dado específico.
+O HealthDB executa funções (Work) de importação/exportação de dados e consultas (Query), dentre outras. Cada uma delas associada a um usuário (User) que deve estar devidamente autenticado (Access Control) para fazer uso do banco de dados (Database) em questão. Tais funções produzem um resultado (ResultSet). Em geral, trata-se de dados de saúde (RMObject), pertinentes a um Registro Eletrônico em Saúde (EHR) baseados em um ou mais arquétipos. Em tempo, cada EHR é pertinente a um paciente (Patient) cujos dados demográficos (Demographic) são mantidos "separados" das informações clínicas propriamente ditas.
 
-![sisb-domain](https://cloud.githubusercontent.com/assets/1735792/23722478/436b2994-0424-11e7-872c-1fc261542468.png)
+![hdb-domain](https://cloud.githubusercontent.com/assets/1735792/23341779/139f8a4c-fc2d-11e6-89c8-7211d11bb13f.png)
+
 
 ### Visão operacional
 Em um cenário típico, por meio da internet tem-se acesso às recursos oferecidos pelo SISB. Esse acesso é utilizado por odontólogos, pela secretária e também pelo administrador do SISB. Dada a necessidade de manutenção das informações, há previsão de montagem de cópia de segurança, conforme ilustrado abaixo.
