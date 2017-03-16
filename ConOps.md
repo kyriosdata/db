@@ -30,9 +30,9 @@ O HealthDB executa funções (Work) de importação/exportação de dados e cons
 
 
 ### Visão operacional
-Em um cenário típico, por meio da internet tem-se acesso às recursos oferecidos pelo SISB. Esse acesso é utilizado por odontólogos, pela secretária e também pelo administrador do SISB. Dada a necessidade de manutenção das informações, há previsão de montagem de cópia de segurança, conforme ilustrado abaixo.
+O HealthDB é um SGBD que oferece serviços a um Sistema de Informação em Saúde (SIS) por meio da [HealthDB API](https://github.com/kyriosdata/db/wiki/HealthDB-API). 
 
-![sisb-operacional](https://cloud.githubusercontent.com/assets/1735792/23764690/35f2216e-04dd-11e7-99e8-735665815761.png)
+![hdb-operational](https://cloud.githubusercontent.com/assets/1735792/24010300/39ba8efc-0a56-11e7-8e74-1454a0aa265b.png)
 
 No cenário acima um servidor atende requisições de vários terminais simultanemente. O SISB, contudo, deve ser capaz de operar em outros cenários, por exemplo, no qual o usuário interage com um computador no qual o SISB está em execução, sem conexão com serviço remoto.
 
