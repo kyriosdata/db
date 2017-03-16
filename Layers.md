@@ -11,7 +11,7 @@ A _Client layer_ compreende vários módulos. O principal módulo é a especific
 
 ![hdb-layer-client](https://cloud.githubusercontent.com/assets/1735792/24012580/45947772-0a5d-11e7-8f2d-599e5b71fb1d.png)
 
-Observe ainda os módulos Client [GUI](https://github.com/kyriosdata/db/wiki/Cliente-(gui)) e Client [Console](https://github.com/kyriosdata/db/wiki/Cliente-(console)). O primeiro fornece uma interface gráfica para acesso ao HealthDB via navegador, enquanto o segundo é uma interface baseada na linha de comandos. Esses clientes ilustram como o acesso aos serviços do HealthDB podem ser requisitados por qualquer Sistema de Informação em Saúde (SIS).
+Observe ainda os módulos Client [GUI](https://github.com/kyriosdata/db/wiki/Cliente-(gui)) e Client [Console](https://github.com/kyriosdata/db/wiki/Cliente-(console)). O primeiro fornece uma interface gráfica para acesso ao HealthDB via navegador, enquanto o segundo é uma interface baseada na linha de comandos. Esses clientes ilustram como o acesso aos serviços do HealthDB podem ser requisitados por um Sistema de Informação em Saúde (SIS).
 
 Ainda convém ressaltar que a implementação da HealthDB API pode ser realizada em outras linguagens de programação e não apenas em JavaScript e Java, conforme ilustrado.
 
