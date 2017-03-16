@@ -13,7 +13,9 @@ A _Client layer_ compreende vários módulos. O principal módulo é a especific
 
 Observe ainda os módulos Client [GUI](https://github.com/kyriosdata/db/wiki/Cliente-(gui)) e Client [Console](https://github.com/kyriosdata/db/wiki/Cliente-(console)). O primeiro fornece uma interface gráfica para acesso ao HealthDB via navegador, enquanto o segundo é uma interface baseada na linha de comandos. 
 
-#### Application layer
+***
+
+### Application layer
 Os módulos da _Application Layer_ são apresentados no diagrama abaixo. 
 
 ![hdb-layer-application](https://cloud.githubusercontent.com/assets/1735792/22622583/3503510a-eb25-11e6-914d-52deff7ab441.png)
@@ -28,7 +30,9 @@ Detalhes:
 - _Session Manager_. Responsável por manter o estado da conexão de um cliente com o HealthDB.  
 - [Conversores](https://github.com/kyriosdata/db/wiki/Conversores). Assegura representação do formato empregado pelo HealthDB em XML, JSON e outros, e vice-versa.
 
-#### Data layer
+***
+
+### Data layer
 Os módulos da _Data layer_ são apresentados na figura abaixo. 
 
 ![hdb-layer-data](https://cloud.githubusercontent.com/assets/1735792/22618587/7257d7aa-eac7-11e6-9645-b095e86b18ca.png)
@@ -43,13 +47,17 @@ Detalhes:
 - [Metadata Manager](https://github.com/kyriosdata/db/wiki/Metadata). Oferece serviços para persistência de informações sobre dados. 
 - [Keyword Processor](https://github.com/kyriosdata/db/wiki/Palavras-chave). Módulo que produz, a partir de um conjunto de palavras-chave, uma consulta AQL correspondente. 
 
-#### Storage engine layer
+***
+
+### Storage engine layer
 - [Adaptador](https://github.com/kyriosdata/db/wiki/Adaptador). Realiza várias funções que permitem "isolar" uma implementação específica dos serviços de armazenamento da camada de dados.
 - Native. Implementação personalizada para contemplar apenas os requisitos do HealthDB, por exemplo, não inclui a noção de transação. Inclui _file manager_, _buffer manager_ e componentes similares. O [Codec](https://github.com/kyriosdata/db/wiki/Codec) é um dos principais componentes, responsável pela representação dos dados no formato do HealthDB, assim como o Adapter, responsável pelo processo de empacotamento do resultado de consultas.
 - SQL. Representa um SGBD relacional. Esse componente é externo ao HealthDB e, caso empregado, demanda implementação de [Adaptador](https://github.com/kyriosdata/db/wiki/Adaptador) específico. 
 - NoSQL. Representa um SGBD NoSQL. Esse componente é externo ao HealthDB. Caso seja empregado, demanda implementação de [Adaptador](https://github.com/kyriosdata/db/wiki/Adaptador) específico.
 
-#### Infrastructure layer
+***
+
+### Infrastructure layer
 Embora não exibida nas figuras acima, a camada de infraestrutura oferece serviços comuns a mais de uma das camadas acima. 
 - _File Manager_. Encapsula serviço de acesso a arquivos. Implementação usando Hadoop HDFS deve ser fornecida.
 - _RingBuffer_. Encapsula serviço de controle de acesso à memória compartilhada.
