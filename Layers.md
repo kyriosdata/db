@@ -20,7 +20,7 @@ Ainda convém ressaltar que a implementação da HealthDB API pode ser realizada
 ### Application layer
 A _Application Layer_ reúne os módulos que implementam a recepção das requisições e o encaminhamento para execução. Essa camada também é responsável pelo acesso a serviços externos.
 
-![hdb-layer-application](https://cloud.githubusercontent.com/assets/1735792/24015984/1b3ed268-0a69-11e7-8924-719c7ae6b4f6.png)
+![hdb-layer-application](https://cloud.githubusercontent.com/assets/1735792/24043407/32d9e9f8-0af5-11e7-999e-6adb2640301c.png)
 
 Detalhes:
 - Autenticação e Autorização ([A2](https://github.com/kyriosdata/db/wiki/Autentica%C3%A7%C3%A3o-e-Autoriza%C3%A7%C3%A3o-(A2))).
