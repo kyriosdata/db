@@ -9,7 +9,7 @@ As camadas do HealthDB são indicadas na figura abaixo. Os usos permitidos são 
 ### Client layer (módulos)
 A _Client layer_ compreende vários módulos. O principal módulo é a especificação do protocolo HealthDB (no centro da figura abaixo). Observe que cinco módulos dependem dessa especificação: a interface [HealthDB API](https://github.com/kyriosdata/db/wiki/HealthDB-API) em JavaScript e a implementação do driver correspondente; a interface [HealthDB API](https://github.com/kyriosdata/db/wiki/HealthDB-API) em Java e a correspondente implementação e, por fim, a implementação da HealthDB API no lado do servidor. 
 
-![hdb-layer-client](https://cloud.githubusercontent.com/assets/1735792/24012580/45947772-0a5d-11e7-8f2d-599e5b71fb1d.png)
+![hdb-layer-client](https://cloud.githubusercontent.com/assets/1735792/24046211/8db1e442-0b00-11e7-9243-c9a6c275a234.png)
 
 Observe ainda os módulos Client [GUI](https://github.com/kyriosdata/db/wiki/Cliente-(gui)) e Client [Console](https://github.com/kyriosdata/db/wiki/Cliente-(console)). O primeiro fornece uma interface gráfica para acesso ao HealthDB via navegador, enquanto o segundo é uma interface baseada na linha de comandos. Esses clientes ilustram como o acesso aos serviços do HealthDB podem ser requisitados por um Sistema de Informação em Saúde (SIS).
 
@@ -18,35 +18,20 @@ Ainda convém ressaltar que a implementação da HealthDB API pode ser realizada
 ***
 
 ### Application layer
-A _Application Layer_ reúne os módulos que implementam a recepção das requisições e o encaminhamento para execução. Essa camada também é responsável pelo acesso a serviços externos como aqueles oferecidos pelo barramento do Serviço Único de Saúde (SUS).
+A _Application Layer_ reúne os módulos que implementam a recepção das requisições e o encaminhamento para execução. Essa camada também é responsável pelo acesso a serviços externos.
 
-![hdb-layer-application](https://cloud.githubusercontent.com/assets/1735792/24015984/1b3ed268-0a69-11e7-8924-719c7ae6b4f6.png)
+![hdb-layer-application](https://cloud.githubusercontent.com/assets/1735792/24046166/64a44194-0b00-11e7-80da-66f8650a05f5.png)
 
-Detalhes:
-- Autenticação e Autorização ([A2](https://github.com/kyriosdata/db/wiki/Autentica%C3%A7%C3%A3o-e-Autoriza%C3%A7%C3%A3o-(A2))).
-- Auditoria. Responsável pela execução de atividades de auditoria (por exemplo, produção de relatórios).
-- External Service. Conexão com serviços externos utilizados pelo HealthDB, por exemplo, CNS, CNES e outros. 
-- [_Work Manager_](https://github.com/kyriosdata/db/wiki/Work-Manager). Decide se o processamento de uma requisição deve ser iniciada imediatamente ou aguardar até que recursos considerados necessários estejam disponíveis para serem alocados à requisição. Adicionalmente, estabelece a ligação entre _worker thread_ usada para tratar a requisição (lógico) e a correspondente implementação (física) usando _threads_ em Java, _lightweight thread_, um processo ou outro mecanismo, inclusive o uso de _pool_ desses recursos físicos.
-- _Use Case Manager_. O HealthDB apresenta aos clientes alguns casos de uso: importar, exportar dados, acréscimo de arquétipo e, talvez o mais comum, consulta AQL. 
-- _Session Manager_. Responsável por manter o estado da conexão de um cliente com o HealthDB.  
-- [Conversores](https://github.com/kyriosdata/db/wiki/Conversores). Assegura representação do formato empregado pelo HealthDB em XML, JSON e outros, e vice-versa.
+Cada um desses módulos estão descritos em [detalhes](https://github.com/kyriosdata/db/wiki/Application-layer).
 
 ***
 
-### Data layer
-Os módulos da _Data layer_ são apresentados na figura abaixo. 
+### Domain layer
+Os conceitos e serviços oferecidos pelo HealthDB são estão identificados na _Domain layer_, ilustrada abaixo. 
 
-![hdb-layer-data](https://cloud.githubusercontent.com/assets/1735792/22618587/7257d7aa-eac7-11e6-9645-b095e86b18ca.png)
+![hdb-layer-domain-subsystems](https://cloud.githubusercontent.com/assets/1735792/24054171/0ef07b72-0b1a-11e7-9c2c-76154c5afbd3.png)
 
-Detalhes:
-
-- [ADL Compiler](https://github.com/kyriosdata/db/wiki/Compilador-ADL). Responsável por receber um arquétipo descrito em ADL e produzir a representação interna correspondente.
-- [AQL Compiler](https://github.com/kyriosdata/db/wiki/Compilador-AQL). Responsável por produzir a representação interna correspondente a uma consulta.
-- Schema Generator ([DSG](https://github.com/kyriosdata/db/wiki/Data-Schema-Generator-(DSG))). Módulo que recebe a representação interna de um arquétipo produzida pelo compilador de ADL e produz: (a) um esquema em conformidade com a _storage engine_ a ser utilizada pelo HealthDB e (b) metadados correspondentes. 
-- Execution Plan Generator ([DQG](https://github.com/kyriosdata/db/wiki/Data-Query-Generator-(DQG))). Responsável por converter a representação interna de uma consulta, em conformidade com a representação interna do esquema (metadados) em consulta que pode ser executada pela _storage engine_.
-- [Storage Engine Conector](https://github.com/kyriosdata/db/wiki/Storage-Engine-Connector-(SEC)). Conexão com a _storage engine_ usada. Esse é o componente que, de fato, repassa para o _storage manager_ requisições. No sentido inverso, o conector faz uso de um conversor dos dados produzidos pela execução do _storage engine_ no formato empregado internamente pelo HealthDB.
-- [Metadata Manager](https://github.com/kyriosdata/db/wiki/Metadata). Oferece serviços para persistência de informações sobre dados. 
-- [Keyword Processor](https://github.com/kyriosdata/db/wiki/Palavras-chave). Módulo que produz, a partir de um conjunto de palavras-chave, uma consulta AQL correspondente. 
+Os módulos apresentados acima estão detalhados [aqui](https://github.com/kyriosdata/db/wiki/Domain-layer).
 
 ***
 
