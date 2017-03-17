@@ -18,7 +18,7 @@ Ainda convém ressaltar que a implementação da HealthDB API pode ser realizada
 ***
 
 ### Application layer
-A _Application Layer_ reúne os módulos que implementam a recepção das requisições e o encaminhamento para execução. Essa camada também é responsável pelo acesso a serviços externos como aqueles oferecidos pelo barramento do Serviço Único de Saúde (SUS).
+A _Application Layer_ reúne os módulos que implementam a recepção das requisições e o encaminhamento para execução. Essa camada também é responsável pelo acesso a serviços externos.
 
 ![hdb-layer-application](https://cloud.githubusercontent.com/assets/1735792/24015984/1b3ed268-0a69-11e7-8924-719c7ae6b4f6.png)
 
