@@ -31,15 +31,7 @@ Os conceitos e serviços oferecidos pelo HealthDB são estão identificados na _
 
 ![hdb-layer-domain-subsystems](https://cloud.githubusercontent.com/assets/1735792/24054171/0ef07b72-0b1a-11e7-9c2c-76154c5afbd3.png)
 
-Detalhes:
-
-- [ADL Compiler](https://github.com/kyriosdata/db/wiki/Compilador-ADL). Responsável por receber um arquétipo descrito em ADL e produzir a representação interna correspondente.
-- [AQL Compiler](https://github.com/kyriosdata/db/wiki/Compilador-AQL). Responsável por produzir a representação interna correspondente a uma consulta.
-- Schema Generator ([DSG](https://github.com/kyriosdata/db/wiki/Data-Schema-Generator-(DSG))). Módulo que recebe a representação interna de um arquétipo produzida pelo compilador de ADL e produz: (a) um esquema em conformidade com a _storage engine_ a ser utilizada pelo HealthDB e (b) metadados correspondentes. 
-- Execution Plan Generator ([DQG](https://github.com/kyriosdata/db/wiki/Data-Query-Generator-(DQG))). Responsável por converter a representação interna de uma consulta, em conformidade com a representação interna do esquema (metadados) em consulta que pode ser executada pela _storage engine_.
-- [Storage Engine Conector](https://github.com/kyriosdata/db/wiki/Storage-Engine-Connector-(SEC)). Conexão com a _storage engine_ usada. Esse é o componente que, de fato, repassa para o _storage manager_ requisições. No sentido inverso, o conector faz uso de um conversor dos dados produzidos pela execução do _storage engine_ no formato empregado internamente pelo HealthDB.
-- [Metadata Manager](https://github.com/kyriosdata/db/wiki/Metadata). Oferece serviços para persistência de informações sobre dados. 
-- [Keyword Processor](https://github.com/kyriosdata/db/wiki/Palavras-chave). Módulo que produz, a partir de um conjunto de palavras-chave, uma consulta AQL correspondente. 
+Os módulos apresentados acima estão detalhados [aqui](https://github.com/kyriosdata/db/wiki/Domain-layer).
 
 ***
 
