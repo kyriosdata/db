@@ -26,10 +26,10 @@ Cada um desses módulos estão descritos em [detalhes](https://github.com/kyrios
 
 ***
 
-### Data layer
-Os módulos da _Data layer_ são apresentados na figura abaixo. 
+### Domain layer
+Os conceitos e serviços oferecidos pelo HealthDB são estão identificados na _Domain layer_, ilustrada abaixo. 
 
-![hdb-layer-data](https://cloud.githubusercontent.com/assets/1735792/22618587/7257d7aa-eac7-11e6-9645-b095e86b18ca.png)
+![hdb-layer-domain-subsystems](https://cloud.githubusercontent.com/assets/1735792/24054171/0ef07b72-0b1a-11e7-9c2c-76154c5afbd3.png)
 
 Detalhes:
 
