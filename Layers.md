@@ -22,14 +22,7 @@ A _Application Layer_ reúne os módulos que implementam a recepção das requis
 
 ![hdb-layer-application](https://cloud.githubusercontent.com/assets/1735792/24043407/32d9e9f8-0af5-11e7-999e-6adb2640301c.png)
 
-Detalhes:
-- Autenticação e Autorização ([A2](https://github.com/kyriosdata/db/wiki/Autentica%C3%A7%C3%A3o-e-Autoriza%C3%A7%C3%A3o-(A2))).
-- Auditoria. Responsável pela execução de atividades de auditoria (por exemplo, produção de relatórios).
-- External Service. Conexão com serviços externos utilizados pelo HealthDB, por exemplo, CNS, CNES e outros. 
-- [_Work Manager_](https://github.com/kyriosdata/db/wiki/Work-Manager). Decide se o processamento de uma requisição deve ser iniciada imediatamente ou aguardar até que recursos considerados necessários estejam disponíveis para serem alocados à requisição. Adicionalmente, estabelece a ligação entre _worker thread_ usada para tratar a requisição (lógico) e a correspondente implementação (física) usando _threads_ em Java, _lightweight thread_, um processo ou outro mecanismo, inclusive o uso de _pool_ desses recursos físicos.
-- _Use Case Manager_. O HealthDB apresenta aos clientes alguns casos de uso: importar, exportar dados, acréscimo de arquétipo e, talvez o mais comum, consulta AQL. 
-- _Session Manager_. Responsável por manter o estado da conexão de um cliente com o HealthDB.  
-- [Conversores](https://github.com/kyriosdata/db/wiki/Conversores). Assegura representação do formato empregado pelo HealthDB em XML, JSON e outros, e vice-versa.
+Cada um desses módulos estão descritos em [detalhes](https://github.com/kyriosdata/db/wiki/Application-layer).
 
 ***
 
