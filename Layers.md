@@ -4,7 +4,8 @@ As camadas do HealthDB são indicadas na figura abaixo. Os usos permitidos são 
 
 ![hdb-layers](https://cloud.githubusercontent.com/assets/1735792/24067912/69290aa4-0b61-11e7-8f5e-b33f1bcac986.png)
 
-Cada uma das camadas é composta por módulos e dos usos permitidos entre eles. A [_Client Layer_](https://github.com/kyriosdata/db/wiki/Client-layer) é a camada de aplicativos clientes do HealthDB e da implementação da comunicação de um cliente com o HealthDB. 
+Cada uma das camadas é composta por módulos e dos usos permitidos entre eles. A [_Client Layer_](https://github.com/kyriosdata/db/wiki/Client-layer) é a camada de aplicativos clientes do HealthDB e da implementação da comunicação de um cliente com o HealthDB. A [_Application Layer_](https://github.com/kyriosdata/db/wiki/Application-layer) reúne os módulos que implementam a recepção das requisições e o encaminhamento para execução. Essa camada também é responsável pelo acesso a serviços externos. A [_Domain Layer_](https://github.com/kyriosdata/db/wiki/Domain-layer) inclui os conceitos e os serviços oferecidos pelo HealthDB.
+
 
 ***
 
@@ -20,7 +21,7 @@ Ainda convém ressaltar que a implementação da HealthDB API pode ser realizada
 ***
 
 ### Application layer
-A _Application Layer_ reúne os módulos que implementam a recepção das requisições e o encaminhamento para execução. Essa camada também é responsável pelo acesso a serviços externos.
+A [_Application Layer_](https://github.com/kyriosdata/db/wiki/Application-layer) reúne os módulos que implementam a recepção das requisições e o encaminhamento para execução. Essa camada também é responsável pelo acesso a serviços externos.
 
 ![hdb-layer-application](https://cloud.githubusercontent.com/assets/1735792/24046166/64a44194-0b00-11e7-80da-66f8650a05f5.png)
 
@@ -29,7 +30,7 @@ Cada um desses módulos estão descritos em [detalhes](https://github.com/kyrios
 ***
 
 ### Domain layer
-Os conceitos e serviços oferecidos pelo HealthDB são estão identificados na _Domain layer_, ilustrada abaixo. 
+ 
 
 ![hdb-layer-domain-subsystems](https://cloud.githubusercontent.com/assets/1735792/24054171/0ef07b72-0b1a-11e7-9c2c-76154c5afbd3.png)
 
