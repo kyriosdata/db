@@ -35,7 +35,7 @@ Os módulos apresentados acima estão detalhados [aqui](https://github.com/kyrio
 
 ***
 
-### Storage engine layer
+### Storage layer
 
 ![hdb-layer-storage](https://cloud.githubusercontent.com/assets/1735792/24068063/7b78ad7e-0b64-11e7-9f47-d3320df5498d.png)
 
