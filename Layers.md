@@ -8,15 +8,6 @@ Cada uma das camadas é composta por módulos e dos usos permitidos entre eles. 
 
 ***
 
-### Application layer
-A [_Application Layer_](https://github.com/kyriosdata/db/wiki/Application-layer) reúne os módulos que implementam a recepção das requisições e o encaminhamento para execução. Essa camada também é responsável pelo acesso a serviços externos.
-
-![hdb-layer-application](https://cloud.githubusercontent.com/assets/1735792/24046166/64a44194-0b00-11e7-80da-66f8650a05f5.png)
-
-Cada um desses módulos estão descritos em [detalhes](https://github.com/kyriosdata/db/wiki/Application-layer).
-
-***
-
 ### Infrastructure layer
 Embora não exibida nas figuras acima, a camada de infraestrutura oferece serviços comuns a mais de uma das camadas acima. 
 - _File Manager_. Encapsula serviço de acesso a arquivos. Implementação usando Hadoop HDFS deve ser fornecida.
