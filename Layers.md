@@ -28,15 +28,6 @@ Cada um desses módulos estão descritos em [detalhes](https://github.com/kyrios
 
 ***
 
-### Domain layer
- 
-
-![hdb-layer-domain-subsystems](https://cloud.githubusercontent.com/assets/1735792/24054171/0ef07b72-0b1a-11e7-9c2c-76154c5afbd3.png)
-
-Os módulos apresentados acima estão detalhados [aqui](https://github.com/kyriosdata/db/wiki/Domain-layer).
-
-***
-
 ### Storage layer
 
 ![hdb-layer-storage](https://cloud.githubusercontent.com/assets/1735792/24068111/7ddacaa6-0b65-11e7-8afe-10c72ab792bb.png)
