@@ -37,7 +37,7 @@ Os módulos apresentados acima estão detalhados [aqui](https://github.com/kyrio
 
 ### Storage layer
 
-![hdb-layer-storage](https://cloud.githubusercontent.com/assets/1735792/24068063/7b78ad7e-0b64-11e7-9f47-d3320df5498d.png)
+![hdb-layer-storage](https://cloud.githubusercontent.com/assets/1735792/24068111/7ddacaa6-0b65-11e7-8afe-10c72ab792bb.png)
 
 - [Adapter](https://github.com/kyriosdata/db/wiki/Adaptador). Reúne serviços que permitem "isolar" uma implementação específica dos serviços de armazenamento da camada de dados.
 - Native. Implementação personalizada para contemplar apenas os requisitos do HealthDB, por exemplo, não inclui a noção de transação. Inclui _file manager_, _buffer manager_ e componentes similares. O [Codec](https://github.com/kyriosdata/db/wiki/Codec) é um dos principais componentes, responsável pela representação dos dados no formato do HealthDB, assim como o Adapter, responsável pelo processo de empacotamento do resultado de consultas.
