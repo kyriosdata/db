@@ -1,8 +1,10 @@
 
 # Visão de camadas
-As camadas do HealthDB são indicadas na figura abaixo. Os usos permitidos são exclusivamente entre camadas adjacentes e todos eles estão exibidos na figura. A visão detalhada de cada uma das camadas identifica as responsabilidades de cada camada e os módulos aos quais tais responsabilidades estão atribuídas.
+As camadas do HealthDB são indicadas na figura abaixo. Os usos permitidos são exclusivamente entre camadas adjacentes e todos eles estão exibidos na figura. 
 
 ![hdb-layers](https://cloud.githubusercontent.com/assets/1735792/24067912/69290aa4-0b61-11e7-8f5e-b33f1bcac986.png)
+
+Cada uma das camadas é detalhada abaixo por meio da identificação dos módulos correspondentes e dos usos permitidos entre esses módulos.
 
 ***
 
