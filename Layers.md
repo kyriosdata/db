@@ -28,17 +28,6 @@ Cada um desses módulos estão descritos em [detalhes](https://github.com/kyrios
 
 ***
 
-### Storage layer
-
-![hdb-layer-storage](https://cloud.githubusercontent.com/assets/1735792/24068111/7ddacaa6-0b65-11e7-8afe-10c72ab792bb.png)
-
-- [Adapter](https://github.com/kyriosdata/db/wiki/Adaptador). Reúne serviços que permitem "isolar" uma implementação específica dos serviços de armazenamento da camada de dados.
-- Native Adapter. Implementação personalizada de um Adapter para contemplar apenas os requisitos do HealthDB. Esse adaptador não faz uso de serviço oferecido por elemento externo (ator), ao contrário do SQL Adapter e do NoSQL Adapter.
-- SQL Adapter. Implementa adaptador para um SGBD relacional. Um SGBD SQL é externo (ator) ao HealthDB. Deve existir um adaptador específico para cada SGBD relacional empregado.
-- NoSQL Adapter. Implementa adaptador para um SGBD NoSQL. Um SGBD NoSQL é externo (ator) ao HealthDB. Deve existir um adaptador específico para cada SGBD empregado.
-
-***
-
 ### Infrastructure layer
 Embora não exibida nas figuras acima, a camada de infraestrutura oferece serviços comuns a mais de uma das camadas acima. 
 - _File Manager_. Encapsula serviço de acesso a arquivos. Implementação usando Hadoop HDFS deve ser fornecida.
