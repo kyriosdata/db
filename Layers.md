@@ -4,7 +4,7 @@ As camadas do HealthDB são indicadas na figura abaixo. Os usos permitidos são 
 
 ![hdb-layers](https://cloud.githubusercontent.com/assets/1735792/24067912/69290aa4-0b61-11e7-8f5e-b33f1bcac986.png)
 
-Cada uma das camadas é composta por módulos e dos usos permitidos entre eles. A [_Client Layer_](https://github.com/kyriosdata/db/wiki/Client-layer) é a camada de aplicativos clientes do HealthDB e da implementação da comunicação de um cliente com o HealthDB. A [_Application Layer_](https://github.com/kyriosdata/db/wiki/Application-layer) reúne os módulos que implementam a recepção das requisições e o encaminhamento para execução. Essa camada também é responsável pelo acesso a serviços externos. A [_Domain Layer_](https://github.com/kyriosdata/db/wiki/Domain-layer) inclui os conceitos e os serviços oferecidos pelo HealthDB.
+Cada uma das camadas é composta por módulos e dos usos permitidos entre eles. A [_Client Layer_](https://github.com/kyriosdata/db/wiki/Client-layer) é a camada de aplicativos clientes do HealthDB e da implementação da comunicação de um cliente com o HealthDB. A [_Application Layer_](https://github.com/kyriosdata/db/wiki/Application-layer) reúne os módulos que implementam a recepção das requisições recebidas dos clientes, as encaminha para execução e gerencia sessões, além de fazer acesso a serviços externos. A [_Domain Layer_](https://github.com/kyriosdata/db/wiki/Domain-layer) inclui os conceitos e os serviços oferecidos pelo HealthDB.
 
 
 ***
