@@ -41,8 +41,8 @@ Os módulos apresentados acima estão detalhados [aqui](https://github.com/kyrio
 
 - [Adapter](https://github.com/kyriosdata/db/wiki/Adaptador). Reúne serviços que permitem "isolar" uma implementação específica dos serviços de armazenamento da camada de dados.
 - Native. Implementação personalizada para contemplar apenas os requisitos do HealthDB, por exemplo, não inclui a noção de transação. Inclui _file manager_, _buffer manager_ e componentes similares. O [Codec](https://github.com/kyriosdata/db/wiki/Codec) é um dos principais componentes, responsável pela representação dos dados no formato do HealthDB, assim como o Adapter, responsável pelo processo de empacotamento do resultado de consultas.
-- SQL Adapter. Representa um SGBD relacional. Esse componente é externo ao HealthDB e, caso empregado, demanda implementação de [Adapter](https://github.com/kyriosdata/db/wiki/Adaptador) específico. 
-- NoSQL Adapter. Representa um SGBD NoSQL. Esse componente é externo ao HealthDB. Caso seja empregado, demanda implementação de [Adapter](https://github.com/kyriosdata/db/wiki/Adaptador) específico.
+- SQL Adapter. Implementa adaptador para um SGBD relacional. Um SGBD SQL é externo (ator) ao HealthDB. Deve existir um adaptador específico para cada SGBD relacional empregado.
+- NoSQL Adapter. Implementa adaptador para um SGBD NoSQL. Um SGBD NoSQL é externo (ator) ao HealthDB. Deve existir um adaptador específico para cada SGBD empregado.
 
 ***
 
