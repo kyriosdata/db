@@ -5,4 +5,6 @@
 
 # Principal
 
+- Onde estaria a opção de cadastro, tela anterior?
+
 ![](3-principal.png)
