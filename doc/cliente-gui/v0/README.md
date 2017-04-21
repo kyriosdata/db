@@ -20,4 +20,6 @@
 
 # Consultas existentes
 - Não deveria ter uma opção para executar a consulta (além de remover)?
+- Não deveria ter uma opção para editar a consulta? Por exemplo, ao clicar na consulta?
+
 ![](5-consultas-existentes.png)
