@@ -12,5 +12,8 @@
 ![](3-principal.png)
 
 # Consulta
+- Provavelmente o aspecto mais elaborado do projeto de interação. Veja a [apresentação](https://www.slideshare.net/borutf/querying-ehr-data-with-archetype-query-language) para um exemplo alternativo.
+- Está faltando a possibilidade do próprio operador fornecer a consulta, manualmente. 
+- Observe a consulta clássica extraída da especificação da AQL: ![](aql.png)
 
 ![](4-cria-consulta.png)
