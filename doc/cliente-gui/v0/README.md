@@ -6,5 +6,7 @@
 # Principal
 
 - Onde estaria a opção de cadastro, tela anterior?
+- Onde está Title seria a logomarca do HealthDB?
+- Também seria preciso uma opção para a língua (e não apenas português).
 
 ![](3-principal.png)
