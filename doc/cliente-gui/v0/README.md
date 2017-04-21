@@ -29,3 +29,9 @@
 - Acredito que "Acrescentar" é melhor que "Novo" (ou seja, "Acrescentar arquétipo" como rótulo do botão).
 
 ![](6-arquetipos.png)
+
+# Acrescentar arquétipo
+- Um arquétipo é um arquivo que pode estar disponível no computador local, mas também em um servidor externo, acessível por meio de uma URL, por exemplo, arquétipos do CKM. Ou seja, deve ser oferecida a possibilidade de se fornecer uma URL.
+- Não entendi o nome, pois todo arquétipo possui um nome bem definido e, portanto, basta localizar o arquivo correspondente para obter o nome. 
+
+![](7-novo-arquetipo.png)
