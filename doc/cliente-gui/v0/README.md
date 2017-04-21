@@ -26,5 +26,6 @@
 
 # Arquétipos
 - Seria oportuno exibir um contador do total de arquétipos disponíveis (já acrescentados).
+- Acredito que "Acrescentar" é melhor que "Novo" (ou seja, "Acrescentar arquétipo" como rótulo do botão).
 
 ![](6-arquetipos.png)
