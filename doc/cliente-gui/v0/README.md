@@ -10,3 +10,7 @@
 - Também seria preciso uma opção para a língua (e não apenas português).
 
 ![](3-principal.png)
+
+# Consulta
+
+![](4-cria-consulta.png)
