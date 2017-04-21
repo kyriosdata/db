@@ -17,3 +17,7 @@
 - Observe a consulta clássica extraída da especificação da AQL. Podemos nos basear nessa consulta na sua tela proposta para avançarmos. ![](aql.png)
 
 ![](4-cria-consulta.png)
+
+# Consultas existentes
+- Não deveria ter uma opção para executar a consulta (além de remover)?
+![](5-consultas-existentes.png)
