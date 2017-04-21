@@ -23,3 +23,8 @@
 - Não deveria ter uma opção para editar a consulta? Por exemplo, ao clicar na consulta?
 
 ![](5-consultas-existentes.png)
+
+# Arquétipos
+- Seria oportuno exibir um contador do total de arquétipos disponíveis (já acrescentados).
+
+![](6-arquetipos.png)
