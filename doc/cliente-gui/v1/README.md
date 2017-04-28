@@ -28,6 +28,8 @@ Todas as imagens utilizadas devem fazer uso de licença pública. Ou seja, já p
 
 # Consulta fornecida manualmente
 
+- Em vez de testar não seria executar? Afinal, o que seria testar?
+
 ![](4.2-consulta-facil.png)
 
 # Consultas
