@@ -1,5 +1,5 @@
 # Login
-- Dado que essa é a tela inicial, sugiro que acrescente o nome do produto (HealthDB) na página. Caso contrário, nem sabemos exatamente onde estamos nos autenticando.
+- Dado que essa é a tela inicial, sugiro que acrescente o nome do produto (HealthDB) na página. Caso contrário, nem sabemos exatamente onde estamos nos autenticando. Não deveria ser a mesma barra, aquela com as opções de língua?
 
 ![](1-login.png)
 
@@ -11,10 +11,6 @@
 ![](2.1-cadastro-termos.png)
 
 # Principal
-
-- Onde estaria a opção de cadastro, tela anterior?
-- Onde está Title seria a logomarca do HealthDB?
-- Também seria preciso uma opção para a língua (e não apenas português).
 
 ![](3-inicio.png)
 
