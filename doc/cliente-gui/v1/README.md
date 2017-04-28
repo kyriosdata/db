@@ -16,7 +16,7 @@
 - Onde está Title seria a logomarca do HealthDB?
 - Também seria preciso uma opção para a língua (e não apenas português).
 
-![](3-principal.png)
+![](3-inicio.png)
 
 # Consulta
 - Provavelmente o aspecto mais elaborado do projeto de interação. Veja a [apresentação](https://www.slideshare.net/borutf/querying-ehr-data-with-archetype-query-language) para um exemplo alternativo.
