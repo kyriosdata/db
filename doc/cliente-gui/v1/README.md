@@ -22,7 +22,11 @@
 
 ![](4.1-consulta-facil.png)
 
+# Consulta fornecida manualmente
+
 ![](4.2-consulta-facil.png)
+
+# Consultas
 
 ![](5-consultas.png)
 
