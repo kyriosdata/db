@@ -1,11 +1,14 @@
 # Login
+- Dado que essa é a tela inicial, sugiro que acrescente o nome do produto (HealthDB) na página. Caso contrário, nem sabemos exatamente onde estamos nos autenticando.
 
 ![](1-login.png)
 
 # Cadastro de usuário
 
-- Não fica claro quais são os termos. Nesse caso, não se trata do texto propriamente dito, mas onde estariam disponíveis ou seriam exibidos?
 ![](2-cadastro.png)
+
+# Termos de cadastro
+![](2.1-cadastro-termos.png)
 
 # Principal
 
