@@ -38,6 +38,9 @@ Todas as imagens utilizadas devem fazer uso de licença pública. Ou seja, já p
 ![](5-consultas.png)
 
 # Arquétipos disponíveis
+- O identificador de um arquétipo é relativamente extenso, sugiro que use exemplos do CKM como openEHR-EHR-ACTION.imaging_exam.v0.
+- Em vez de 'nome', o melhor é 'Conceito'. Por exemplo, para o arquétipo identificado acima o Conceito é 'Imaging examination'. 
+- No item acima há uma complicação adicional, pois o conceito pode ser fornecido em vários idiomas em um arquétipo, ou seja, "deveria" ser "Exame de imagem" se houvesse versão em português. Como não há, ficaria o valor em Inglês (por padrão). 
 ![](6-arquetipos.png)
 
 # Acréscimo de arquétipo
