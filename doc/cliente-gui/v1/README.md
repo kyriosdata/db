@@ -1,3 +1,7 @@
+# Login
+
+![](1-login.png)
+
 # Cadastro de usuário
 
 - Não fica claro quais são os termos. Nesse caso, não se trata do texto propriamente dito, mas onde estariam disponíveis ou seriam exibidos?
