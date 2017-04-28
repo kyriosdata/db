@@ -30,5 +30,8 @@
 
 ![](5-consultas.png)
 
+# Arquétipos disponíveis
 ![](6-arquetipos.png)
+
+# Acréscimo de arquétipo
 ![](7-acrescenta-arquetipo.png)
