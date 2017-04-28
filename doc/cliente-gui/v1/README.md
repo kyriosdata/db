@@ -46,7 +46,7 @@ Todas as imagens utilizadas devem fazer uso de licença pública. Ou seja, já p
 ![](6-arquetipos.png)
 
 # Acréscimo de arquétipo
-- Em vez de usar 'Novo Arquétipo' com a inicial maiúscula em Arquétipo, melhor seria apenas a primeira letra maiúscula e todos os demais em minúscula. Essa observação vale para as demais telas.
+- Em vez de usar 'Novo Arquétipo' com a inicial maiúscula em Arquétipo, melhor seria apenas a primeira letra maiúscula e todos os demais em minúscula. Essa observação vale para as demais telas e todos os itens, por exemplo, melhor seria "Buscar arquétipo".
 
 
 ![](7-acrescenta-arquetipo.png)
