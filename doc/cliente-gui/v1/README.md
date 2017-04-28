@@ -1,3 +1,6 @@
+# Acerca de imagens
+Todas as imagens utilizadas devem fazer uso de licença pública. Ou seja, já precisamos da licença dos ícones correspondentes às bandeiras (da barra) e seguramente de onde as obtemos. Isso também vale para a sugestão de ícones para operações, fornecida abaixo.
+
 # Login
 - Dado que essa é a tela inicial, sugiro que acrescente o nome do produto (HealthDB) na página. Caso contrário, nem sabemos exatamente onde estamos nos autenticando. Não deveria ser a mesma barra, aquela com as opções de língua?
 
@@ -27,6 +30,7 @@
 ![](4.2-consulta-facil.png)
 
 # Consultas
+- Acredito que é melhor ícones para representar Executar, Editar e Remover. Ao passar o cursor sobre cada um deles a operação correspondente é exibida.
 
 ![](5-consultas.png)
 
