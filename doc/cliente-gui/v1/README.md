@@ -18,6 +18,8 @@
 
 ![](4-consulta.png)
 
+# Consulta fácil
+
 ![](4.1-consulta-facil.png)
 
 ![](4.2-consulta-facil.png)
