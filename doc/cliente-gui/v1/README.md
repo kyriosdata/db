@@ -22,6 +22,7 @@ Todas as imagens utilizadas devem fazer uso de licença pública. Ou seja, já p
 ![](4-consulta.png)
 
 # Consulta fácil
+- Não seria "Salvar consulta" em vez de "Criar"?
 
 ![](4.1-consulta-facil.png)
 
