@@ -1,29 +1,13 @@
-# HealthDB
-![](icon-96x96.png)
+## Bem-vindo!
 
-A database management system for health data.
+![](icon-48x48.png)
 
-- UniK (https://github.com/emc-advanced-dev/unik) Mínimo de SO para executar um aplicativo. 
-- Json (http://www.digip.org/jansson/)
-- Libcurl for transfer data (https://curl.haxx.se/libcurl/)
-- http server (https://www.gnu.org/software/libmicrohttpd/)
-- REST for C (https://github.com/babelouest/ulfius)
-- Criar o próprio thread-per-client socket connection in C?
-- web server functionality (https://www.coralbits.com/libonion/)
-- Lighttpd (https://www.lighttpd.net/)
-- xml parser (http://www.jclark.com/xml/expat.html)
-- xml parser (http://www.xmlsoft.org/)
-- xml parser (http://www.msweet.org/projects.php?Z3)
-- Bibliotecas para programação (networking) (http://stackoverflow.com/questions/118945/best-c-c-network-library)
-- Libevent (http://libevent.org/)
-- nanomsg (http://nanomsg.org/)
-- apr (http://apr.apache.org/)
-- zeroc (https://zeroc.com/)
-- libuv (http://libuv.org/)
-- corvusoft (http://www.corvusoft.co.uk/)
-- facil (http://facil.io/)
-- boost (http://www.boost.org/doc/libs/1_59_0/doc/html/boost_asio.html)
-- asio (http://think-async.com/Asio/)
-- ACE (http://www.cs.wustl.edu/~schmidt/ACE.html)
-- http://nipun-linuxtips.blogspot.com.br/2012/09/a-simple-rest-framework-on-cc.html
-- GraphQL (http://graphql.org/) T1: Alternativa para AQL baseada em Arquétipos. T2: Type system for openEHR reference model
+HealthDB (_Health Database_) é um sistema de gerenciamento de banco de dados cuja linguagem de definição de dados é a [ADL](http://www.openehr.org/releases/AM/latest/docs/ADL2/ADL2.html) e cuja linguagem de manipulação de dados é a [AQL](http://www.openehr.org/releases/QUERY/latest/docs/AQL/AQL.html). O HealthDB tem como objetivo facilitar o desenvolvimento de Sistemas de Informação em Saúde (SISs) interoperáveis. 
+
+A partir dessa wiki tem-se acesso a atividades de pesquisa, inovação e desenvolvimento alinhadas com a construção do produto HealthDB. A sugestão é iniciar pelo [ambiente](https://github.com/kyriosdata/db/wiki/Arquitetura-corporativa) no qual está inserido o HealthDB, seguido de uma [visão geral](https://github.com/kyriosdata/db/wiki/Vis%C3%A3o-geral) destas atividades.
+
+## Contato
+Envie suas dúvidas, críticas e sugestões para o email fabio@inf.ufg.br.
+
+## Oportunidades de orientação
+Entre em contato caso tenha algum interesse dentre as dezenas de oportunidades de pesquisa, desenvolvimento e inovação, possivelmente a ser trabalhado em Trabalho de Conclusão de Curso (TCC), iniciação científica ou mestrado. 
