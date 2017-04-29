@@ -1,4 +1,6 @@
 # HealthDB
+![](icon.png)
+
 A database management system for health data.
 
 - UniK (https://github.com/emc-advanced-dev/unik) Mínimo de SO para executar um aplicativo. 
