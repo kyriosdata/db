@@ -1,5 +1,5 @@
 # HealthDB
-![](icon.png)
+![](icon-96x96.png)
 
 A database management system for health data.
 
