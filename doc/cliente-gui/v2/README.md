@@ -36,4 +36,4 @@ Todas as imagens utilizadas devem fazer uso de licença pública. Ou seja, já p
 ![](6-arquetipos.png)
 
 # Acréscimo de arquétipo
-![](7-acrescenta-arquetipo.png)
+![](7-acrescenta-arquetipos.png)
