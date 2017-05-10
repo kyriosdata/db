@@ -8,8 +8,10 @@ Todas as imagens utilizadas devem fazer uso de licença pública. Ou seja, já p
 
 # Cadastro de usuário
 
+![](2-cadastro.png)
 
 # Termos de cadastro
+
 ![](2.1-cadastro-termos.png)
 
 # Principal
