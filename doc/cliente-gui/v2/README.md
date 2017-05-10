@@ -4,7 +4,7 @@ Todas as imagens utilizadas devem fazer uso de licença pública. Ou seja, já p
 # Login
 - Dado que essa é a tela inicial, sugiro que acrescente o nome do produto (HealthDB) na página. Caso contrário, nem sabemos exatamente onde estamos nos autenticando. Não deveria ser a mesma barra, aquela com as opções de língua?
 
-![](1-login.png)
+
 
 # Cadastro de usuário
 
