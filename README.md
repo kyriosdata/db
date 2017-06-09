@@ -1,4 +1,3 @@
-## Bem-vindo!
 
 ![](logo/c.png) 
 
